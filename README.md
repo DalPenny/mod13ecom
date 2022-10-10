@@ -17,7 +17,7 @@
   This project makes a database that is seeded with data for categories, products and tags so that you can access information from the database easiliy
 
   ## Installation
-  need to seed database using mysql with "mysql -u root -p" and then enter password, next SOURCE db/schema.sql  USE ecommerce_db, then SHOW TABLES, SELECT * FROM product_tag; npm run seed to seed the database, next quit the database mysql and do  node server.js to run the server in the server.js file, go back to mysql and do SHOW TABLES, and SELECT * FROM product_tag, need insomnia and vscode
+  need to install mysql with "npm i mysql", need to install sequelize with "npm i sequelize" need to install the dotenv file to secure database credentials with "npm i dotenv", next seed database using mysql with "mysql -u root -p" and then enter password, next SOURCE db/schema.sql  USE ecommerce_db, then SHOW TABLES, SELECT * FROM product_tag; npm run seed to seed the database, next quit the database mysql and do  node server.js to run the server in the server.js file, go back to mysql and do SHOW TABLES, and SELECT * FROM product_tag, need insomnia and vscode
 
   ## Usage
   run above commands and then open insomnia and run localhost:3001/api/categories as a GET route to see how it works, can change categories to products or tags to get more info. can do categories/4 to get the specific id for one product, can do a POST route to add things to the database with insomnia. can do a delete route to delete a specific id from the database
@@ -29,6 +29,9 @@
   
   ## Tests
   test with insomnia using GET/POST/DELETE routes
+  
+  ## Video
+  ! [video of e-com backend](https://drive.google.com/file/d/1CA_ScCYvdL00jNyV3w5gRYbUSG0n5qf-/view)
   
   ## Github
   Have questions about this project?  
